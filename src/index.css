@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins text-white;
+  }
+  .wrapper {
+    @apply max-w-[1170px] px-[15px] mx-auto py-5;
+  }
+}
+
+/* .btn {
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.btn:hover::before {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #fff;
+  opacity: 0.1;
+  z-index: -1;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+} */
